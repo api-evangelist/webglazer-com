@@ -1,0 +1,28 @@
+aid: webglazer-com
+name: WebGlazer
+description: 'WebGlazer is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/webglazer-com/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-10'
+modified: '2026-11-10'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://webglazer.com
+- type: Documentation
+  url: https://webglazer.com/docs/integrations/mcp
+x-submission-notes: MCP integration; site behind Cloudflare challenge
+x-submission-probe: 2026-11-10 root 403 + ctl 403 Cloudflare 'Just a moment' (bot-block, not death)
+x-submitted-by: markuss@webglazer.com (apis.io/add, 2026-11-10)
